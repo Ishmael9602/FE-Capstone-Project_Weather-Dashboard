@@ -137,33 +137,6 @@ section h2 {
   height: 100px;
 }
 
-.weather-details {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid #ddd;
-}
-
-.detail-item {
-  text-align: center;
-  padding: 0.5rem;
-  background: rgba(116, 185, 255, 0.1);
-  border-radius: 8px;
-}
-
-.detail-label {
-  font-size: 0.9rem;
-  color: #636e72;
-}
-
-.detail-value {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #2d3436;
-}
-
 #forecast-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -253,4 +226,97 @@ footer {
   header h1 {
     font-size: 2rem;
   }
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #1e1e1e;
+  color: #f0f0f0;
+}
+
+.dark-mode header {
+  background: rgba(34, 34, 34, 0.95);
+  color: #f0f0f0;
+}
+
+.dark-mode section {
+  background: rgba(50, 50, 50, 0.95);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #f0f0f0;
+}
+
+.dark-mode .forecast-day {
+  background: linear-gradient(135deg, #2d3436, #636e72);
+  color: #f0f0f0;
+}
+
+.dark-mode .recent-city {
+  background: #0984e3;
+}
+
+.dark-mode .recent-city:hover {
+  background: #74b9ff;
+}
+
+.dark-mode footer {
+  background: rgba(34, 34, 34, 0.95);
+  color: #f0f0f0;
+}
+
+/* Spinner */
+.spinner {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #0984e3;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 2rem auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Toggle Switch */
+.toggle-switch {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.toggle-switch input {
+  display: none;
+}
+
+.toggle-switch label {
+  background: #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  position: relative;
+  transition: background 0.3s;
+}
+
+.toggle-switch label .switch {
+  background: white;
+  border-radius: 50%;
+  bottom: 2px;
+  left: 2px;
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  transition: transform 0.3s;
+}
+
+.toggle-switch input:checked + label {
+  background: #0984e3;
+}
+
+.toggle-switch input:checked + label .switch {
+  transform: translateX(30px);
 }
