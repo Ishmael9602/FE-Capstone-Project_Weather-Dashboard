@@ -51,6 +51,13 @@ Click on recent searches to quickly fetch previous cities
 
 Toggle Dark/Light Mode using the switch in the header
 
+
+## 🌍 Live Demo
+🔗 [Weather Dashboard on Vercel](https://fe-capstone-project-weathe-git-fd29eb-phikani-ishmaels-projects.vercel.app?_vercel_share=FkOFeGlyhfgZ5vQTmJbKeGdToBY8lxW5)  
+
+⚠️ *Note: Deployment may currently show a 404 error due to Vercel configuration. The app works correctly when run locally (`npm start`).*  
+
+
 ## 👤 Author
 
 ©️ 2025 Phikani Ishmael Mavundla
