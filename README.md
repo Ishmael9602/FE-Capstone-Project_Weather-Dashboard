@@ -1,27 +1,56 @@
-# FE-Capstone-Project_Weather-Dashboard
+# 🌤 React Weather Dashboard – ALX FE Capstone
 
-## Project Overview  
-The Weather Dashboard is a front-end application that allows users to search for real-time weather information for any city.  
-It provides current weather details such as temperature, humidity, wind speed, and a 5-day forecast (with icons for conditions).  
+A fully responsive **React** weather dashboard that allows users to search for the current weather and 5-day forecast for any city, use geolocation, toggle between light/dark mode, and view recent searches.  
 
 This project is part of the **ALX Front-End Capstone Project**.  
-You are currently viewing **Part 3**, where we integrated weather data using an API and displayed forecast information.
 
+---
 
-## Features Implemented (Part 3)   
-- Search bar to input a city name  
-- Fetches **real-time weather data** using the [OpenWeather API](https://openweathermap.org/api)  
-- Displays:  
-  - City name and current date  
-  - Current temperature, humidity, and wind speed  
-  - Weather condition icons (sunny, cloudy, rainy, etc.)  
-- Shows a **multi-day forecast** with relevant weather details  
+## 🛠 Features
 
+- **Current Weather**: Temperature, condition, feels-like, humidity, and wind speed  
+- **5-Day Forecast**: Min/max temperature and weather icon for each day  
+- **City Search**: Enter any city to get the weather  
+- **Geolocation**: Use your current location to fetch local weather  
+- **Recent Searches**: Stores last 5 searches in `localStorage`  
+- **Dark/Light Mode**: Toggle switch to change theme; preference saved in `localStorage`  
+- **Responsive Design**: Works on desktop and mobile devices  
+- **Footer**: Includes copyright ©️ 2025 Phikani Ishmael Mavundla  
 
-## Technologies Used 🛠️  
-- **HTML5** – for structure  
-- **CSS3 (with Flexbox/Grid)** – for styling and responsive design  
-- **JavaScript (ES6+)** – for API integration and DOM manipulation  
-- **OpenWeather API** – for live weather data  
+---
 
+## 🚀 Technologies Used
 
+- **React** – Functional Components & Hooks  
+- **CSS Grid & Flexbox** – for layout and responsiveness  
+- **JavaScript (ES6+)** – API integration and logic  
+- **OpenWeather API** – real-time weather data  
+- **LocalStorage** – saving recent searches & theme preferences  
+
+---
+
+## 📁 Project Structure
+
+weather-dashboard/
+ ─ weather-dashboard-react/ # React app
+  ─ public/
+     ─ src/
+     ─ App.js
+     ─ styles.css
+     ─ index.js
+     ─ package.json
+ ─ README.md
+
+## 🔧 Usage
+
+Type a city name and click Search
+
+Click  Use My Location to get weather for your current location
+
+Click on recent searches to quickly fetch previous cities
+
+Toggle Dark/Light Mode using the switch in the header
+
+## 👤 Author
+
+©️ 2025 Phikani Ishmael Mavundla
