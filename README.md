@@ -1,63 +1,38 @@
-# 🌤 React Weather Dashboard – ALX FE Capstone
+Weather Dashboard (React) – Capstone Project
+📌 Overview
+The Weather Dashboard is a responsive React web application that allows users to search for weather conditions of any city worldwide. It provides real-time weather data, supports dark mode, and is deployed live on Vercel.
 
-A fully responsive **React** weather dashboard that allows users to search for the current weather and 5-day forecast for any city, use geolocation, toggle between light/dark mode, and view recent searches.  
+🔗 Live Demo: https://weather-dashboard-react-267uvm4qj-phikani-ishmaels-projects.vercel.app/
+✨ Features
+•	🌍 Search weather by city (worldwide coverage)
+•	🌡️ Displays temperature, humidity, wind speed, and weather condition
+•	🌓 Dark Mode toggle for better user experience
+•	📱 Fully responsive design (desktop & mobile)
+•	⚡ Built with React hooks for state management
+•	🚀 Deployed to Vercel for easy access
+🛠️ Technologies Used
+•	React.js (Frontend framework)
+•	JavaScript (ES6+)
+•	CSS / Tailwind (optional styling, if used)
+•	OpenWeatherMap API (or similar weather API)
+•	Vercel (Deployment platform)
+🚀 Installation & Setup
+Follow these steps to run the project locally:
+git clone https://github.com/Ishmael9602/FE-Capstone-Project_Weather-Dashboard.git
+cd FE-Capstone-Project_Weather-Dashboard
+npm install
+npm start
 
-This project is part of the **ALX Front-End Capstone Project**.  
+🌐 Deployment
+This project is deployed on Vercel.
+👉 Live Demo: https://weather-dashboard-react-267uvm4qj-phikani-ishmaels-projects.vercel.app/
+🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to open a pull request.
+📜 License
+This project is licensed under the MIT License – free to use and modify.
 
----
-
-## 🛠 Features
-
-- **Current Weather**: Temperature, condition, feels-like, humidity, and wind speed  
-- **5-Day Forecast**: Min/max temperature and weather icon for each day  
-- **City Search**: Enter any city to get the weather  
-- **Geolocation**: Use your current location to fetch local weather  
-- **Recent Searches**: Stores last 5 searches in `localStorage`  
-- **Dark/Light Mode**: Toggle switch to change theme; preference saved in `localStorage`  
-- **Responsive Design**: Works on desktop and mobile devices  
-- **Footer**: Includes copyright ©️ 2025 Phikani Ishmael Mavundla  
-
----
-
-## 🚀 Technologies Used
-
-- **React** – Functional Components & Hooks  
-- **CSS Grid & Flexbox** – for layout and responsiveness  
-- **JavaScript (ES6+)** – API integration and logic  
-- **OpenWeather API** – real-time weather data  
-- **LocalStorage** – saving recent searches & theme preferences  
-
----
-
-## 📁 Project Structure
-
-weather-dashboard/
- ─ weather-dashboard-react/ # React app
-  ─ public/
-     ─ src/
-     ─ App.js
-     ─ styles.css
-     ─ index.js
-     ─ package.json
- ─ README.md
-
-## 🔧 Usage
-
-Type a city name and click Search
-
-Click  Use My Location to get weather for your current location
-
-Click on recent searches to quickly fetch previous cities
-
-Toggle Dark/Light Mode using the switch in the header
-
-
-## 🌍 Live Demo
-🔗 [Weather Dashboard on Vercel](https://fe-capstone-project-weathe-git-fd29eb-phikani-ishmaels-projects.vercel.app?_vercel_share=FkOFeGlyhfgZ5vQTmJbKeGdToBY8lxW5)  
-
-⚠️ *Note: Deployment may currently show a 404 error due to Vercel configuration. The app works correctly when run locally (`npm start`).*  
-
-
-## 👤 Author
-
-©️ 2025 Phikani Ishmael Mavundla
+👤 Author
+Phikani Ishmael Mavundla
+📧 Email: v7.vundla@gmail.com
+🌍 GitHub: https://github.com/Ishmael9602
+💼 Portfoli
