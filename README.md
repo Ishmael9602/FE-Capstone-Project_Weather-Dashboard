@@ -14,9 +14,9 @@ The Weather Dashboard is a responsive React web application that allows users to
 🛠️ Technologies Used
 •	React.js (Frontend framework)
 •	JavaScript (ES6+)
-•	CSS / Tailwind (optional styling, if used)
-•	OpenWeatherMap API (or similar weather API)
-•	Vercel (Deployment platform)
+•	CSS / Tailwind 
+•	OpenWeatherMap API 
+•	Vercel
 
 🚀 Installation & Setup
 Follow these steps to run the project locally:
